@@ -25,6 +25,20 @@ El flujo de datos sigue un desacoplamiento estricto de cómputo y almacenamiento
 * **Orquestador:** Apache Airflow 3.x
 * **Visualización:** Streamlit + Plotly
 
+---
+
+## Airflow Pipeline
+
+![Airflow DAG](docs/images/airflow_dag_success.png)
+
+---
+
+## Streamlit Dashboard
+
+![Streamlit Dashboard](docs/images/streamlit_dashboard.png)
+
+---
+
 ## 📂 Estructura del Proyecto
 
 ```text
@@ -49,16 +63,3 @@ nyc-mobility-lakehouse/
 │   └── silver_transformations.py
 └── .gitignore
 
----
-
-## Airflow Pipeline
-
-![Airflow DAG](docs/images/airflow_dag_success.png)
-
----
-
-## Streamlit Dashboard
-
-![Streamlit Dashboard](docs/images/streamlit_dashboard.png)
-
----
